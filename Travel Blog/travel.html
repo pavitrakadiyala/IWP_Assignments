@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <body style="background: #b3e0ff";>
+        <nav>
+        <ul class="nav" >
+            <li class="topleft"><a href="#"><b>Pavitra</b></a></li>
+            <li class="topright"><a href="#blog"><b>Blog</b></a></li>
+            <li class="topright"><a href="#contact"><b>Contact</b></a></li>
+            <li class="topright"><a href="#home"><b>Home</b></a></li>
+            <li class="topright"><a href="#me"><b>AboutMe</b></a></li>
+        </ul>
+        </nav>
+        <a name="home"></a>
+        <div class="travel">
+                  <h1><center> My Travel blogs!!</center></h1> 
+                  <p id="demo2" class="date"></p>
+            <p id="demo3" class="date"></p>
+            
+            <p id="demo" class="para">Welcome</p>
+            <p class="para" > I love to Travel. Each time I travel, I learn something New. 
+                I feel travelling gives us more chance to explore ourselves and enjoy the world around us.
+          </p><center>
+          <input id="searchbar" type="text" name="search" placeholder="Search">
+        </center>
+        </div>
+        <div class="card">
+        <div class="container">
+            <div class="row" >
+                <div class="col" >
+                    <div class="image">
+                    <img src="C:\Users\pavit\Desktop\VTOP DOCS\FIFTH SEM\IWP\stone.jpg" width=500px>
+                </div>
+                </div>
+                <a name="me"></a>
+                <div class="col">                   
+                        <h2>
+                            About me!
+                        </h2>
+                        <p class="para1"> My name is Pavitra. I am currently pursiuing third year CSE in VIT, Vellore.
+                            My hobbies include Travelling, Dancing and Baking. I love to travel. The last time i travelled was a trip to Banglore in November.   
+                        </p> 
+                        <button style="background-color: black;display: block;margin: auto;padding:10px;border-radius: 5px;color: white;"><a href="#subs"><b>Subscribe</b></button>                  
+                </div>                
+            </div>
+        </div>
+        </div>
+        
+        <a name="blog"></a>
+        <div class="container">
+            <h2>MY TRAVEL BLOGS</h2>
+            
+            <div class="row">
+                <div class="col1">
+                    <div class="box1">
+                      
+                      <br> 
+                      <h2 > SWITZERLAND!</h2>
+                      
+                      <div>
+                        <img src="C:\Users\pavit\Desktop\VTOP DOCS\FIFTH SEM\IWP\Switzerland.jpg" width="300px" >
+                    </div>
+                    <p class="para1">I visited Switzerland recently, in 2019. It was an amazing experience and the first time i ever saw snow.
+                        During my trip i went to 4 mountains. The first mountain I visited was Titlis where it was snowing. 
+                        I even went to the Chaplins world and did a hot air balloon ride in Geneva. </p>
+                    </div>        
+        </div>
+        
+                <div class="col1">
+                    <div class="box1">
+                      
+                      <br> 
+                      <h2 > SINGAPORE!</h2>
+                     
+                      <div>
+                        <img src="C:\Users\pavit\Desktop\VTOP DOCS\FIFTH SEM\IWP\singapore.jpg" width="300px" >
+                    </div>
+                    <p class="para1">I have been to Singapore twice. Once at the age of 5 and another at the age of 16. 
+                        The first time i had been to Malaysia as well and saw the twin towers. 
+                        I went to Sentosa where i went to the Universal Studios in Singapore.</p>
+                    </div>      
+        </div>
+        <div class="col1">
+            <div class="box1">
+              
+              <br> 
+              <h2 >USA!</h2>              
+              <div>
+                <img src="C:\Users\pavit\Desktop\VTOP DOCS\FIFTH SEM\IWP\USA.jpg" width="300px" >
+            </div>
+            <p class="para1"> I had been to USA when i was 12 years old. it was a 3 week trip. My uncle stays there. We went to Many places. 
+                Few of them are Universal Studios, Kennedy Space Center, Disney world in FLorida. 
+                I have also been to the Niagra Falls anda coke factory. </p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <a name="contact"></a>
+        <div class="contact">
+            <h2 style="color: white;text-align: center;">Want to Get In Touch?</h2>
+            <br>
+            <div class="container2" >    
+                <form action="home.html" name="myform" onsubmit="return validate1();">
+                    <h1 class="heading">Contact Details</h1>
+                    First Name:<br>
+                    <input type="text" placeholder=" Name" name="name1"><br> <br>
+
+                    Last Name:<br>
+                    <input type="text" placeholder="Last Name">
+
+                    <br><br>
+
+                    Email id:<br>
+                    <input type="text" placeholder="Email" name="email">
+                    <br>
+                    <br>
+
+                    Message:<br>
+                    <textarea id="subject" name="subject" placeholder="Feel free to write a message!" style="height:200px"></textarea>
+                    <br><br>
+                    
+                    <input type="submit" value="Submit">
+                    <br>
+                    
+                </form>
+                
+            </div>        
+        </div> 
+        <a name="subs"></a>
+        <div class="contact">
+            <h2 style="color: white;text-align: center;">Subscribe for updates</h2>
+            <br>
+            <div class="container2">    
+                <form action="home.html" name="myform2" onsubmit="return validate2();">
+                    <h1 class="heading">Subscribe</h1>
+                
+
+                    Email id:<br>
+                    <input type="text" placeholder="Email" name="email2" >
+                    <br>
+                    <br>
+
+                    Phone number:<br>
+                    <input type="number" placeholder="number" name="number" >
+                    <br><br>
+                    
+                    <input type="submit" value="Submit">
+                    <br>
+                    
+                </form>
+            </div>
+        
+        </div>  
+        <div class="footer">
+            <p>Happy Travelling!</p>
+          </div>  
+          <script  src="hi.js"> </script>
+    </body>
+</html>
