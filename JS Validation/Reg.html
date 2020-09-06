@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" type="text/css" href="Reg.css">     
+    <body style="background: #3583b8";>
+        <h1>BOOK DETAILS!</h1>
+        <div class="container2" >
+        <form name="myform" method="post" action="table.html" onsubmit="return validateform()" > 
+            <div>
+                <label for="name">Title of The book!</label>
+                <input type="text" name="name"><br/>   
+            </div>  
+            <div>
+                <label for="member">Number of Authors</label>
+                <input type="text" id="member" name="member" value="" placeholder="Number of authors: (max. 5)"><br />
+                <div class="fill">
+    <a href="#" id="filldetails" onclick="addFields()">Fill Author Details</a>
+</div>
+    <div id="container"/></div>
+            </div>
+            <div>
+                <label for="ISBN">ISBN NUMBER</label>
+                <input type="text" name="ISBN" placeholder="xxxx-x-xx-xxxxxx-x"><br/>   
+            </div> 
+        <div>
+            <label for="strin">Publisher Details</label>
+            <input type="text" name="strin"><br/>
+        </div>
+        <div>
+            <label for="Editor">Editor Details</label>
+            <input type="text" name="Editor"><br/>
+        </div>
+        <div>
+            <label for="price">Price of The book!</label>
+                <input type="text" name="price"><br/>
+        </div>
+        <div >
+            <label for="date">Date!</label>
+            <input type="text" id="date" placeholder="dd/mm/yy" >
+        </div>
+        <input type="submit" value="submit">  
+    </form>
+<script  src="Reg.js"> </script>
+</body>
+</html>

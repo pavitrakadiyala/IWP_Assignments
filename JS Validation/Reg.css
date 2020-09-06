@@ -1,0 +1,98 @@
+input,textarea{
+    width: 100%;
+    padding: 10px;  
+    border: 1px solid rgb(192, 192, 192); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+    resize: vertical ;
+    background-color: rgb(233, 233, 233);
+}
+
+input[type=submit] {
+    background-color: rgb(0, 33, 95);
+    color: white;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-family: Geometria;
+    width: 50%;
+    }
+
+.fill{
+    background-color:pink;
+    color: white;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-family: Geometria;
+    width: 50%; 
+    text-align: center;
+}
+
+    .container2 {
+    
+        background-color: #fff;
+        padding-left:  20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 30px;
+      }
+      h1{
+        font-family: Geometria;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: underline;
+    
+    }    
+
+
+    .contain {
+        background-color:#fff ;
+        padding-left:  20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-radius: 25px;
+    }
+    #custom {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #custom td, #custom th {
+        border: 1px solid black;
+        padding: 8px;
+      
+        
+      }
+    
+      #custom tr:hover {background-color: #ddd;}
+      
+      #custom th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        height: 50px;
+        width: 100px;
+        color: white;
+      }

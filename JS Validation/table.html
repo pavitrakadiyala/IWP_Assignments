@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" type="text/css" href="Reg.css">  
+    <body style="background:#3583b8";>
+            <div class ="contain">
+                <center>
+                    <h3> BOOK ISSUED!</h3>
+                </center>
+                <table id="custom">
+                    <tr>
+                        <th style="background-color: black">Title of the book</th>
+                        <td><span id="d"></span></td>
+                      </tr>
+                    <tr>
+                      <th style="background-color: red">ID</th>
+                      <td><span id="d1"></span></td>
+                    </tr>
+                    <tr>
+                      <th style="background-color:black ">Book ISBN</th>
+                      <td> <span id="d2"></span></td>
+                    </tr>
+                    <tr>
+                      <th style="background-color: Red;">Issue Date </th>
+                      <td><span id="d3"></td>
+                    </tr>
+                    <tr>
+                      <th style="background-color: black">Return Date</th>
+                      <td><span id="d4"></span></td>
+                    </tr>
+              
+                                    </div> 
+ <script>
+     document.getElementById("d").innerHTML=localStorage.getItem("txt");
+ document.getElementById("d1").innerHTML=localStorage.getItem("text");
+ document.getElementById("d2").innerHTML=localStorage.getItem("textvalue1");
+ var n = new Date();
+                var a = n.getDate();
+                var d = n.getDate();
+                var b = n.getMonth()+1;
+                var e = n.getMonth()+2;
+                 var c = n.getFullYear();
+                 var f = n.getFullYear();
+                 document.getElementById("d3").innerHTML = a +"/"+ b +"/"+ c;
+                 document.getElementById("d4").innerHTML = d +"/"+ e +"/"+ f;                                      
+                                    </script>                
+                </body>
+                </html>
