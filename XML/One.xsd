@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="studentdata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REG" type="xs:string" />
+              <xs:element name="FIRSTNAME" type="xs:string" />
+              <xs:element name="LASTNAME" type="xs:string" />
+              <xs:element name="DEGREE" type="xs:string" />
+              <xs:element name="CURRENTYEAR" type="xs:string" />
+              <xs:element name="CGPA" type="xs:decimal" />
+              <xs:element name="INTEREST" type="xs:string" />
+              <xs:element name="HOBBIES" type="xs:string" />
+              <xs:element name="EVENTS">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ONE" type="xs:string" />
+                    <xs:element name="TWO" type="xs:string" />
+                    <xs:element name="THREE" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ADDRESS">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="DNO" type="xs:unsignedShort" />
+                    <xs:element name="BLOCK" type="xs:string" />
+                    <xs:element name="AREA" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="EMAIL" type="xs:string" />
+              <xs:element name="MOBILE" type="xs:unsignedInt" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+
+<!ELEMENT series(to,from,heading,body)>
+<!ELEMENT FIRSTNAME(#PCDATA)>
+<!ELEMENT LASTNAME(#PCDATA)>
+<!ELEMENT DEGREE(#PCDATA)>
+<!ELEMENT CURRENTYEAR(#PCDATA)>
+<!ELEMENT CGPA(#PCDATA)>
+<!ELEMENT INTEREST(#PCDATA)>
+<!ELEMENT HOBBIES(#PCDATA)>
+<!ELEMENT EVENTS(#PCDATA)>
+<!ELEMENT ADDRESS(#PCDATA)>
+<!ELEMENT MOBILE(#PCDATA)>
+<!ELEMENT EMAIL(#PCDATA)>
